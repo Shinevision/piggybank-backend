@@ -1,4 +1,4 @@
-package com.testing.piggybank.model;
+package com.testing.piggybank.entities;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

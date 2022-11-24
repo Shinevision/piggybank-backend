@@ -1,9 +1,11 @@
-package com.testing.piggybank.transaction;
+package com.testing.piggybank.services;
 
-import com.testing.piggybank.account.AccountService;
-import com.testing.piggybank.model.Account;
-import com.testing.piggybank.model.Direction;
-import com.testing.piggybank.model.Transaction;
+import com.testing.piggybank.entities.Account;
+import com.testing.piggybank.entities.Transaction;
+import com.testing.piggybank.enums.Direction;
+import com.testing.piggybank.models.CreateTransactionRequest;
+import com.testing.piggybank.repositories.TransactionRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

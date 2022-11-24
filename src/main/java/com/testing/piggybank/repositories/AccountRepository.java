@@ -1,14 +1,11 @@
-package com.testing.piggybank.account;
+package com.testing.piggybank.repositories;
 
-import com.testing.piggybank.model.Account;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
+import com.testing.piggybank.entities.Account;
+
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Repository
 public interface AccountRepository extends CrudRepository<Account, Long> {

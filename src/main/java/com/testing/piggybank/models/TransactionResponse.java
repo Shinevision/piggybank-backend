@@ -1,4 +1,4 @@
-package com.testing.piggybank.transaction;
+package com.testing.piggybank.models;
 
 import java.math.BigDecimal;
 import java.time.Instant;

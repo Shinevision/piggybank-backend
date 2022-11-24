@@ -1,4 +1,4 @@
-package com.testing.piggybank.account;
+package com.testing.piggybank.models;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;

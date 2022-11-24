@@ -1,4 +1,4 @@
-package com.testing.piggybank.model;
+package com.testing.piggybank.enums;
 
 public enum Currency {
     EURO,

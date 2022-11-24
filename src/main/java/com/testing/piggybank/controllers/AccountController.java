@@ -1,10 +1,15 @@
-package com.testing.piggybank.account;
+package com.testing.piggybank.controllers;
 
-import com.testing.piggybank.model.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.testing.piggybank.entities.Account;
+import com.testing.piggybank.models.AccountResponse;
+import com.testing.piggybank.models.GetAccountsResponse;
+import com.testing.piggybank.models.UpdateAccountRequest;
+import com.testing.piggybank.services.AccountService;
 
 import javax.validation.Valid;
 import java.util.List;

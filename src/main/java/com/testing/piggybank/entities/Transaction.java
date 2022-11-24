@@ -1,6 +1,9 @@
-package com.testing.piggybank.model;
+package com.testing.piggybank.entities;
 
 import org.springframework.format.annotation.DateTimeFormat;
+
+import com.testing.piggybank.enums.Currency;
+import com.testing.piggybank.enums.Status;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

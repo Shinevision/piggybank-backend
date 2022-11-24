@@ -1,8 +1,8 @@
-package com.testing.piggybank.transaction;
-
-import com.testing.piggybank.model.Currency;
+package com.testing.piggybank.models;
 
 import java.math.BigDecimal;
+
+import com.testing.piggybank.enums.Currency;
 
 public class CreateTransactionRequest {
     private long senderAccountId;

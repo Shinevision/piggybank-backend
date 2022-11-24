@@ -1,7 +1,9 @@
-package com.testing.piggybank.account;
+package com.testing.piggybank.services;
 
-import com.testing.piggybank.model.Account;
-import com.testing.piggybank.model.Direction;
+import com.testing.piggybank.entities.Account;
+import com.testing.piggybank.enums.Direction;
+import com.testing.piggybank.repositories.AccountRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

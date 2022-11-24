@@ -1,7 +1,8 @@
-package com.testing.piggybank.transaction;
+package com.testing.piggybank.services;
 
-import com.testing.piggybank.model.Currency;
 import org.springframework.stereotype.Service;
+
+import com.testing.piggybank.enums.Currency;
 
 import java.math.BigDecimal;
 

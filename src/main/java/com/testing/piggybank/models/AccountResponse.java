@@ -1,4 +1,4 @@
-package com.testing.piggybank.account;
+package com.testing.piggybank.models;
 
 import java.math.BigDecimal;
 
