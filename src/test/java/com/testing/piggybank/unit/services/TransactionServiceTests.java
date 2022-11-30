@@ -1,4 +1,4 @@
-package com.testing.piggybank;
+package com.testing.piggybank.unit.services;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
